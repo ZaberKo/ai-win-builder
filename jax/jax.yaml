@@ -1,0 +1,27 @@
+name: jax
+channels:
+  - conda-forge
+  # - nvidia/label/cuda-12.1.0
+dependencies:
+  - python=3.10 # limited by gym 0.26.1
+  - pip
+  - jupyterlab
+  - tqdm
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
+  - pyyaml
+  - ruamel.yaml
+  - orjson
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - wandb
+  - hydra-core
+  # jax
+  - pip:
+    - -r jax_requirements.txt

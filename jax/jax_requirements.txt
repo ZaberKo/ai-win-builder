@@ -1,0 +1,4 @@
+jax[cuda12]
+optax
+distrax
+orbax-checkpoint

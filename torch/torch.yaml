@@ -1,0 +1,40 @@
+name: cv_torch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab
+  - tqdm
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
+  - pyyaml
+  - ruamel.yaml
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - opencv
+  - networkx
+  - gputil
+  - llvm-openmp<16 # fix for pytorch#99625
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::pytorch-cuda=12.1
+  - tensorboard
+  - tensorboardx
+  - timm
+  - easydict
+  - pip:
+    - ptflops
+    - koila
+    - nvitop
+  
