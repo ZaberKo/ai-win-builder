@@ -1,6 +1,6 @@
-# ai-win-builder
+# GaiaForge 🌱🌿🌳
 
-An interactive script for the setup of AI environments on Windows
+An interactive script designed to simplify and streamline the setup of Deep Learning environments on Windows.
 
 TODO list:
 

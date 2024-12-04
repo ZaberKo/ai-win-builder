@@ -18,7 +18,7 @@ install_miniforge() {
     source "${HOME}/conda/etc/profile.d/mamba.sh"
 }
 
-install_ai_envs() {
+install_dl_envs() {
     for env in $envs; do
         if [ env == "torch"]; then mamba create env -f torch/torch.yaml; fi
         if [ env == "jax" ]; then mamba create env -f jax/jax.yaml; fi
